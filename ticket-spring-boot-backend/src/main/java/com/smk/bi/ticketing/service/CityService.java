@@ -10,5 +10,5 @@ public interface CityService {
     void deleteCity(City city);
     City findByIdd(Long idd
     );
-    List<City> findByName(String cityName);
+    List<City> findByCityName(String cityName);
 }
